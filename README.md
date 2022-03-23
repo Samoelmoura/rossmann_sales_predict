@@ -1,7 +1,62 @@
-# 1. Business Problem:
-Rossmann operates over 3,000 drug stores in 7 European countries. Currently, Rossmann store managers are tasked with predicting their daily sales for up to six weeks in advance. Store sales are influenced by many factors, including promotions, competition, school and state holidays, seasonality, and locality. With thousands of individual managers predicting sales based on their unique circumstances, the accuracy of results can be quite varied.
+# Rossmann Drugstore's
+###### Forecast weekly store sales
+# Capa
+## Business Problem and Business Questions
+A Rossmann opera mais de 3.000 drogarias em 7 países europeus. Atualmente, os gerentes de loja da Rossmann têm a tarefa de prever suas vendas diárias com até seis semanas de antecedência. As vendas da loja são influenciadas por muitos fatores, incluindo promoções, competição, feriados escolares e estaduais, sazonalidade e localidade.
 
-# 2. Summary:
+Você foi contratado para responder às perguntas do time de negócios da empresa, gerar insights e criar um modelo de predições acessível e de fácil utilização, para que os gerentes possam fazer as suas consultas. A aplicação deverá estar disponível em cloud e a consulta será feita através de uma planilha do tipo Google Sheets.
+1. Qual será o faturamento semanal de cada loja para as próximas **15** semanas?
+2. Melhores insights sobre o impacto das features no faturamento das lojas.
+3. Quais são as condições ideais que os diretores deverão ter como base quando forem abrir a próxima loja Rossmann?
+
+### Tools, Requirements and Restrictions
+1. Linguagem: Python
+2. Desenvolvimento e entrega do projeto: Jupyter Notebook
+3. Cloud: Heroku
+4. Plataforma de request: Google Sheets
+
+## Business Assumptions
+1. ...
+
+## Solution Strategy
+
+### Outputs
+1. Através do Jupyter Notebook. Uma tabela contendo: [ período | loja | previsão de faturamento ]
+2. Através do Jupyter Notebook. Gráficos e informações sobre os melhores insights.
+3. Melhores parâmetros para otimização do faturamento.
+
+### Solution Planning
+1. Trabalhar os dados, treinar o modelo e gerar a tabela com os predicts.
+2. Fazer uma análise exploratória de dados.
+3. Utilizar a análise exploratória de dados para identificar os melhores valores para cada feature.
+
+### Steps
+1. Data Cescription - uma descrição estatística dos dados para entender os shapes das distribuições, quantidades de categorias, tamanho do dataset, dados faltantes e discrepancias.
+2. Feature Engineering - criação de variáveis que ajudem a modelar o fenômeno, e auxilie na geração de insights e entendimento de negocio.
+3. Data Filtering - filtragem de variáveis e amostras que não farão parte dos demais passos do desenvolvimento do projeto.
+4. Exploratory Data Analysis - ampliar o entendimento de negócio, criar e testar hipóteses e ganho de entendimento do impacto das features e suas importâncias para a modelagem do fenômeno.
+5. Data Prepataion - preparar os dados para o aprendizado dos modelos, de acordo com as particularidades de cada algorítmo.
+6. Feature Selecion - selecionar as features que devem ou não seguir para a modelagem, tendo em vista o conceito de evitar complexidades desnecessárias.
+7. Machine Learning Modeling - treinamento dos modelos e escolha do melhor modelo.
+8. Hiperparameter Fining Tunning - ajuste dos parâmetros de aprendizagem.
+9. Convert Model Performance to Business Values - conversão das métricas de erro em retornos financeiros.
+10. Deploy Model to Predictions - disponibilizar a aplicação para consultas.
+
+## Top 3 Data Insights
+1. ... texto e gráfico
+2. ... texto e gráfico
+3. ... texto e gráfico
+
+## Machine Learning Model Applied
+## Machine Learning Performance
+1. A métrica de erro utilizada será o ERRO QUADRADO PERCENTUAL MÉDIO
+
+## Business Results
+## Conclusions
+## Leassons Learned
+## Next Steps
+
+## Summary:
 Id - an Id that represents a (Store, Date) duple within the test set
 
 Store - a unique Id for each store
