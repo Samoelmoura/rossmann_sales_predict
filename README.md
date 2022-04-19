@@ -1,7 +1,7 @@
-# Rossmann Drugstore's
-## Forecast Weekly Store Sales
+# 1.0 Rossmann Drugstore's
+## 1.1 Forecast Weekly Store Sales
 ![](img/capa.jpg)
-## Business Problem and Business Questions
+## 1.2 Business Problem and Business Questions
 A Rossmann opera mais de 3.000 drogarias em 7 países europeus. Atualmente, os gerentes de loja da Rossmann têm a tarefa de prever suas vendas diárias com até seis semanas de antecedência. As vendas da loja são influenciadas por muitos fatores, incluindo promoções, competição, feriados escolares e estaduais, sazonalidade e localidade.
 
 Você foi contratado para responder às perguntas do time de negócios da empresa, gerar insights e criar um modelo de predições acessível e de fácil utilização, para que os gerentes possam fazer as suas consultas. A aplicação deverá estar disponível em cloud e a consulta será feita através de uma planilha do tipo Google Sheets.
@@ -9,28 +9,28 @@ Você foi contratado para responder às perguntas do time de negócios da empres
 2. Melhores insights sobre o impacto das features no faturamento das lojas.
 3. Quais são as condições ideais que os diretores deverão ter como base quando forem abrir a próxima loja Rossmann?
 
-### Tools, Requirements and Restrictions
+### 1.2.1 Tools, Requirements and Restrictions
 1. Linguagem: Python
 2. Desenvolvimento e entrega do projeto: Jupyter Notebook
 3. Cloud: Heroku
 4. Plataforma de request: Google Sheets
 
-## Business Assumptions
+## 1.3 Business Assumptions
 1. ...
 
-## Solution Strategy
+## 1.4 Solution Strategy
 
-### Outputs
+### 1.4.1 Outputs
 1. Através do Jupyter Notebook. Uma tabela contendo: [ período | loja | previsão de faturamento ]
 2. Através do Jupyter Notebook. Gráficos e informações sobre os melhores insights.
 3. Melhores parâmetros para otimização do faturamento.
 
-### Solution Planning
+### 1.4.2 Solution Planning
 1. Trabalhar os dados, treinar o modelo e gerar a tabela com os predicts.
 2. Fazer uma análise exploratória de dados.
 3. Utilizar a análise exploratória de dados para identificar os melhores valores para cada feature.
 
-### Steps
+### 1.4.3 Steps
 1. Data Cescription - uma descrição estatística dos dados para entender os shapes das distribuições, quantidades de categorias, tamanho do dataset, dados faltantes e discrepancias.
 2. Feature Engineering - criação de variáveis que ajudem a modelar o fenômeno, e auxilie na geração de insights e entendimento de negocio.
 3. Data Filtering - filtragem de variáveis e amostras que não farão parte dos demais passos do desenvolvimento do projeto.
@@ -42,21 +42,20 @@ Você foi contratado para responder às perguntas do time de negócios da empres
 9. Convert Model Performance to Business Values - conversão das métricas de erro em retornos financeiros.
 10. Deploy Model to Predictions - disponibilizar a aplicação para consultas.
 
-## Top 3 Data Insights
+## 1.5 Top 3 Data Insights
 1. ... texto e gráfico
 2. ... texto e gráfico
 3. ... texto e gráfico
 
-## Machine Learning Model Applied
-## Machine Learning Performance
+## 1.6 Machine Learning Model Applied
+## 1.7 Machine Learning Performance
 1. A métrica de erro utilizada será o ERRO QUADRADO PERCENTUAL MÉDIO
 
-## Business Results
-## Conclusions
-## Leassons Learned
-## Next Steps
+## 1.8 Business Results
+## 1.9 Conclusions
+## 1.10 Leassons Learned
 
-## Summary:
+## 1.11 Summary:
 Id - an Id that represents a (Store, Date) duple within the test set
 
 Store - a unique Id for each store
@@ -86,3 +85,8 @@ Promo2 - Promo2 is a continuing and consecutive promotion for some stores: 0 = s
 Promo2Since[Year/Week] - describes the year and calendar week when the store started participating in Promo2
 
 PromoInterval - describes the consecutive intervals Promo2 is started, naming the months the promotion is started anew. E.g. "Feb,May,Aug,Nov" means each round starts in February, May, August, November of any given year for that store
+
+## 1.12 Next Steps: Continue Exploratory Data Analysis
+
+## 1.13 Project Status:
+![](img/rossmann.PNG)
