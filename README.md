@@ -10,16 +10,13 @@ Você foi contratado para responder às perguntas do time de negócios da empres
 3. Quais são as condições ideais que os diretores deverão ter como base quando forem abrir a próxima loja Rossmann?
 
 ### 2.1 Tools, Requirements and Restrictions
-1. Linguagem: Python
-2. Desenvolvimento e entrega do projeto: Jupyter Notebook
-3. Cloud: Heroku
-4. Plataforma de request: Google Sheets
+- Linguagem: Python
+- Desenvolvimento e entrega do projeto: Jupyter Notebook
+- Cloud: Heroku
+- Plataforma de request: Google Sheets
 
 ## 3.0 Business Assumptions
-1. ...
-
 ## 4.0 Solution Strategy
-
 ### 4.1 Outputs
 1. Através do Jupyter Notebook. Uma tabela contendo: [ período | loja | previsão de faturamento ]
 2. Através do Jupyter Notebook. Gráficos e informações sobre os melhores insights.
@@ -51,35 +48,21 @@ Você foi contratado para responder às perguntas do time de negócios da empres
 ## 9.0 Conclusions
 ## 10.0 Leassons Learned
 ## 11.0 Summary:
-Id - an Id that represents a (Store, Date) duple within the test set
-
-Store - a unique Id for each store
-
-Sales - the turnover for any given day (this is what you are predicting)
-
-Customers - the number of customers on a given day
-
-Open - an indicator for whether the store was open: 0 = closed, 1 = open
-
-StateHoliday - indicates a state holiday. Normally all stores, with few exceptions, are closed on state holidays. Note that all schools are closed on public holidays and weekends. a = public holiday, b = Easter holiday, c = Christmas, 0 = None
-
-SchoolHoliday - indicates if the (Store, Date) was affected by the closure of public schools
-
-StoreType - differentiates between 4 different store models: a, b, c, d
-
-Assortment - describes an assortment level: a = basic, b = extra, c = extended
-
-CompetitionDistance - distance in meters to the nearest competitor store
-
-CompetitionOpenSince[Month/Year] - gives the approximate year and month of the time the nearest competitor was opened
-
-Promo - indicates whether a store is running a promo on that day
-
-Promo2 - Promo2 is a continuing and consecutive promotion for some stores: 0 = store is not participating, 1 = store is participating
-
-Promo2Since[Year/Week] - describes the year and calendar week when the store started participating in Promo2
-
-PromoInterval - describes the consecutive intervals Promo2 is started, naming the months the promotion is started anew. E.g. "Feb,May,Aug,Nov" means each round starts in February, May, August, November of any given year for that store
+- Id - an Id that represents a (Store, Date) duple within the test set
+- Store - a unique Id for each store
+- Sales - the turnover for any given day (this is what you are predicting)
+- Customers - the number of customers on a given day
+- Open - an indicator for whether the store was open: 0 = closed, 1 = open
+- StateHoliday - indicates a state holiday. Normally all stores, with few exceptions, are closed on state holidays. Note that all schools are closed on public holidays and weekends. a = public holiday, b = Easter holiday, c = Christmas, 0 = None
+- SchoolHoliday - indicates if the (Store, Date) was affected by the closure of public schools
+- StoreType - differentiates between 4 different store models: a, b, c, d
+- Assortment - describes an assortment level: a = basic, b = extra, c = extended
+- CompetitionDistance - distance in meters to the nearest competitor store
+- CompetitionOpenSince[Month/Year] - gives the approximate year and month of the time the nearest competitor was opened
+- Promo - indicates whether a store is running a promo on that day
+- Promo2 - Promo2 is a continuing and consecutive promotion for some stores: 0 = store is not participating, 1 = store is participating
+- Promo2Since[Year/Week] - describes the year and calendar week when the store started participating in Promo2
+- PromoInterval - describes the consecutive intervals Promo2 is started, naming the months the promotion is started anew. E.g. "Feb,May,Aug,Nov" means each round starts in February, May, August, November of any given year for that store
 
 ## 12.0 Next Steps: Continue Exploratory Data Analysis
 ## 13.0 Project Status:
