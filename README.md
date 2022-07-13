@@ -64,6 +64,7 @@ Você foi contratado para responder às perguntas do time de negócios da empres
 - Promo2Since[Year/Week] - describes the year and calendar week when the store started participating in Promo2
 - PromoInterval - describes the consecutive intervals Promo2 is started, naming the months the promotion is started anew. E.g. "Feb,May,Aug,Nov" means each round starts in February, May, August, November of any given year for that store
 
-## 12.0 Next Steps: Continue Exploratory Data Analysis
+## 12.0 Next Steps: 
+**Continue Exploratory Data Analysis**
 ## 13.0 Project Status:
 ![](img/project_status.jpg)
