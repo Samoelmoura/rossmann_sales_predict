@@ -43,18 +43,13 @@ Você foi contratado para responder às perguntas do time de negócios da empres
 10. Deploy Model to Predictions - disponibilizar a aplicação para consultas.
 
 ## 5.0 Top 3 Data Insights
-1. ... texto e gráfico
-2. ... texto e gráfico
-3. ... texto e gráfico
-
 ## 6.0 Machine Learning Model Applied
 ## 7.0 Machine Learning Performance
-1. A métrica de erro utilizada será o ERRO QUADRADO PERCENTUAL MÉDIO
+**ERRO QUADRADO PERCENTUAL MÉDIO**
 
 ## 8.0 Business Results
 ## 9.0 Conclusions
 ## 10.0 Leassons Learned
-
 ## 11.0 Summary:
 Id - an Id that represents a (Store, Date) duple within the test set
 
@@ -87,6 +82,5 @@ Promo2Since[Year/Week] - describes the year and calendar week when the store sta
 PromoInterval - describes the consecutive intervals Promo2 is started, naming the months the promotion is started anew. E.g. "Feb,May,Aug,Nov" means each round starts in February, May, August, November of any given year for that store
 
 ## 12.0 Next Steps: Continue Exploratory Data Analysis
-
 ## 13.0 Project Status:
-![](img/rossmann.PNG)
+![](img/project_status.jpg)
