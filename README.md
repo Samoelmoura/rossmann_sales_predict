@@ -41,9 +41,9 @@ Você foi contratado para responder às perguntas do time de negócios da empres
 
 ## 5.0 Top 3 Data Insights
 ## 6.0 Machine Learning Model Applied
+**XGBoost Regressor**
 ## 7.0 Machine Learning Performance
-**ERRO QUADRADO PERCENTUAL MÉDIO**
-
+![](img/metrics.jpg)
 ## 8.0 Business Results
 ## 9.0 Conclusions
 ## 10.0 Leassons Learned
