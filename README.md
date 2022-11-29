@@ -1,5 +1,4 @@
 ### Olá, seja bem vindo ao meu diretório. Esta página é somente um relatório do projeto, para acessar as análises na íntegra clique na pasta "notebooks" e em seguida no arquivo "notebook.ipynb" :smiley:
-# Olá, seja bem vindo ao meu diretório. Para acessar o pipeline do projeto, clique na pasta "notebooks" e em seguida no arquivo "notebook.ipynb" :smiley:
 # Rossmann Drugstore's
 ## 1.0 Forecast Weekly Store Sales
 ![](img/capa.jpg)
